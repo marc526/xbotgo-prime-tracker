@@ -22,7 +22,7 @@ export default function PrimeGrid({ report }: { report: ReportData }) {
   return (
     <div className="bg-white rounded-xl shadow-sm p-5 mb-6">
       <h2 className="text-base font-bold text-gray-800 mb-4 flex items-center gap-2">
-        <span>📊</span> Overnight Availability Grid
+        <span>📊</span> Express Delivery Availability Grid
       </h2>
 
       <div className="overflow-x-auto">
@@ -39,7 +39,7 @@ export default function PrimeGrid({ report }: { report: ReportData }) {
                 </th>
               ))}
               <th className="text-center px-3 py-2.5 rounded-tr-lg min-w-[90px]">
-                Overnight in
+                Express in
                 <div className="text-gray-400 text-xs font-normal"># Locations</div>
               </th>
             </tr>
@@ -69,7 +69,7 @@ export default function PrimeGrid({ report }: { report: ReportData }) {
           <tfoot>
             <tr className="bg-gray-800 text-white font-bold">
               <td className="px-3 py-2.5 rounded-bl-lg sticky left-0 bg-gray-800 z-10">
-                Overnight SKU Count
+                Express SKU Count
               </td>
               {locationTotals.map((l) => (
                 <td key={l.zip} className="text-center py-2.5">

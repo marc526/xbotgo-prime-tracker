@@ -31,20 +31,20 @@ export default function SummaryCards({ report }: { report: ReportData }) {
     },
     {
       value: skusWithAny.toString(),
-      label: "SKUs w/ Any Overnight",
+      label: "SKUs w/ Express Delivery",
       sub: "Across 10 locations",
       color: "text-[#7dc800]",
     },
     {
       value: topCity.city.toUpperCase(),
-      label: "Best Overnight City",
+      label: "Best Express City",
       sub: `${topCity.count} of ${ASINS.length} SKUs available`,
       color: "text-[#5aaa00]",
     },
     {
       value: `${topSku.count}/10`,
       label: topSkuShort,
-      sub: "Widest overnight coverage",
+      sub: "Widest express coverage",
       color: "text-[#7dc800]",
     },
   ];

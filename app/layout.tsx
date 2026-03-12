@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "xBotGo Prime Overnight 7AM Tracker",
-  description: "Prime Overnight by 7AM availability for xBotGo Chameleon across 10 US locations",
+  title: "xBotGo Prime Express Delivery Tracker",
+  description: "Prime Express Delivery availability for xBotGo Chameleon across 10 US locations",
 };
 
 export default function RootLayout({

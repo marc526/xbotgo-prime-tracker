@@ -42,13 +42,11 @@ export default function Home() {
               className="rounded"
             />
             <h1 className="text-3xl font-bold text-gray-900">
-              Prime Overnight{" "}
-              <span className="text-[#7dc800] font-extrabold">7AM</span>{" "}
-              Tracker
+              Prime Express Delivery Tracker
             </h1>
           </div>
           <p className="text-gray-500 mt-1 text-sm">
-            2 SKUs &middot; 10 US ZIP codes &middot; Checks for Prime Overnight delivery by 7AM
+            2 SKUs &middot; 10 US ZIP codes &middot; Checks for Prime Express Delivery availability
             {report && (
               <>
                 {" "}

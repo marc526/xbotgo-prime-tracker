@@ -2,7 +2,7 @@ import { ASINS, LOCATIONS, ReportData } from "@/lib/constants";
 
 function getColor(count: number) {
   if (count === 0) return "#ef4444";
-  if (count === 1) return "#f59e0b";
+  if (count === 1) return "#f97316";
   return "#22c55e";
 }
 
@@ -24,7 +24,7 @@ export default function USMap({ report }: { report: ReportData }) {
   return (
     <div className="bg-white rounded-xl shadow-sm p-5 mb-6">
       <h2 className="text-base font-bold text-gray-800 mb-3 flex items-center gap-2">
-        <span className="text-red-500">📍</span> Overnight Availability by Location
+        <span className="text-red-500">📍</span> Express Delivery Availability by Location
       </h2>
 
       <div className="relative w-full" style={{ paddingBottom: "30.8%" }}>
@@ -90,7 +90,7 @@ export default function USMap({ report }: { report: ReportData }) {
       <div className="flex flex-wrap gap-4 mt-3 justify-center text-xs text-gray-600">
         {[
           { color: "#ef4444", label: "0 SKUs overnight" },
-          { color: "#f59e0b", label: "1 SKU overnight" },
+          { color: "#f97316", label: "1 SKU overnight" },
           { color: "#22c55e", label: "Both SKUs overnight" },
         ].map((item) => (
           <div key={item.label} className="flex items-center gap-1.5">

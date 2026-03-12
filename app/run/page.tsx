@@ -76,10 +76,10 @@ export default function RunPage() {
     <main className="min-h-screen bg-gray-900 text-white p-8">
       <div className="max-w-xl mx-auto">
         <h1 className="text-2xl font-bold mb-1" style={{ color: "#7dc800" }}>
-          xBotGo Overnight Tracker — Runner
+          xBotGo Prime Express Delivery Tracker — Runner
         </h1>
         <p className="text-gray-400 text-sm mb-8">
-          Checks for Prime Overnight delivery by 7AM across 10 US ZIP codes.
+          Checks for Prime Express Delivery availability across 10 US ZIP codes.
         </p>
 
         {status === "saving" && (
@@ -135,7 +135,7 @@ export default function RunPage() {
             <ol className="list-decimal list-inside space-y-1">
               <li>Click <b>Copy Code</b> above</li>
               <li>Right-click your bookmarks bar → <b>Add page…</b></li>
-              <li>Name: <span className="text-gray-200">xBotGo Overnight</span></li>
+              <li>Name: <span className="text-gray-200">xBotGo Express</span></li>
               <li>Paste the copied code as the <b>URL</b></li>
               <li>Click Save</li>
             </ol>
