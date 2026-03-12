@@ -42,7 +42,7 @@ export default function Home() {
               className="rounded"
             />
             <h1 className="text-3xl font-bold text-gray-900">
-              Prime Express Delivery Tracker
+              Prime <em style={{ color: "#3b82f6", fontStyle: "italic" }}>Express</em> Delivery Tracker
             </h1>
           </div>
           <p className="text-gray-500 mt-1 text-sm">
