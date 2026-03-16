@@ -1,30 +1,30 @@
 {
   "results": {
+    "B0DG2DYQD8": {
+      "10001": false,
+      "13090": true,
+      "27601": true,
+      "32801": true,
+      "60601": true,
+      "77001": true,
+      "80202": true,
+      "91101": true,
+      "94103": true,
+      "98101": true
+    },
     "B0D7HQFKPB": {
       "10001": true,
       "13090": true,
       "27601": false,
-      "32801": true,
+      "32801": false,
       "60601": true,
-      "77001": false,
+      "77001": true,
       "80202": true,
       "91101": true,
       "94103": true,
-      "98101": false
-    },
-    "B0DG2DYQD8": {
-      "10001": true,
-      "13090": false,
-      "27601": true,
-      "32801": false,
-      "60601": false,
-      "77001": false,
-      "80202": false,
-      "91101": false,
-      "94103": false,
-      "98101": false
+      "98101": true
     }
   },
-  "checkedAt": "2026-03-12T07:34:12.361Z",
-  "checkedAtMs": 1773300852361
+  "checkedAt": "2026-03-16T18:17:32.219Z",
+  "checkedAtMs": 1773685052219
 }
